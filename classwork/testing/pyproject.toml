@@ -1,0 +1,8 @@
+
+[project]
+name = "testing"
+version = "0.1.0"
+description = "trying to testing"
+
+[tool.setuptools.packages.find]
+where = ["src"]
