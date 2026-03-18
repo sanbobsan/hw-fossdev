@@ -1,7 +1,13 @@
-.PHONY: create_structure
+.PHONY: create-structure create-venv test-pytest
 
-create_structure:
+create-structure:
 	mkdir -p src tests docs
 	touch src/.gitkeep tests/.gitkeep
 	touch docs/DOMAIN.md docs/README.md 
 	touch setup.py requirements.txt
+
+create-venv:
+	python3 -m venv .venv
+
+test-pytest:
+	python3 -m pytest
