@@ -4,11 +4,11 @@ create-practice:
 ifndef NAME
 	$(error NAME is not defined)
 endif
-	mkdir -p $(NAME)
-	cp PracticeMakefile $(NAME)/Makefile
+	mkdir -p classwork/$(NAME)
+	cp PracticeMakefile classwork/$(NAME)/Makefile
 
 remove-practice:
 ifndef NAME
 	$(error NAME is not defined)
 endif
-	rm -rf $(NAME)
+	rm -rf classwork/$(NAME)
