@@ -10,9 +10,9 @@ Sales project.
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   
-   QUICKSTART
-   HOW_TO_CONTRIBUTE
-
+    :maxdepth: 2
+    :caption: Contents:
+    
+    QUICKSTART
+    HOW_TO_CONTRIBUTE
+    DOMAIN
