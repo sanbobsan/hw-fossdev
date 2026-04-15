@@ -16,3 +16,4 @@ Sales project.
     QUICKSTART
     HOW_TO_CONTRIBUTE
     DOMAIN
+    api/modules
