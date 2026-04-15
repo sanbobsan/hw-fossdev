@@ -14,4 +14,5 @@ Sales project.
    :caption: Contents:
    
    QUICKSTART
+   HOW_TO_CONTRIBUTE
 
